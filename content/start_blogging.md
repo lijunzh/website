@@ -1,14 +1,17 @@
 +++
-title = "Restarting My Blog: A Decade Later, Rust, Zola, LLMs, and Taking Back My Digital Life" 
-date = 2024-03-24
+title = "Restarting My Blog: A Decade Later" 
+date = 2024-03-22
 +++
 
+## What happened before?
 
 It’s been almost ten years since I last posted on my blog. Back in 2012, I was a college student diving into GitHub, open-source projects, and self-hosting. By 2014, I had a static website humming along on [GitHub Pages](https://pages.github.com/) with a custom domain—a small victory I still remember fondly. For a couple of years, I shared my learning, research findings, and tech experiments there. It was my little corner of the internet.
 
 Then life took over. By 2016, my research turned confidential, and my first child arrived, leaving little time for blogging. The site went silent, though I kept tinkering—GitHub repos and Apple Notes became my outlets for ideas and lessons. Around 2015, I started exploring [Rust](https://www.rust-lang.org/), drawn to its performance and safety, but with no real use case, it stayed a curiosity. Fast forward to 2025, and I’m back, rebooting my blog with fresh tools and a renewed purpose.
 
-Why now? Three reasons pulled me back, plus a newfound ally in Large Language Models (LLMs) that’s making this restart smoother than I expected.
+## Why now? 
+
+Three reasons pulled me back, plus a newfound ally in Large Language Models (LLMs) that’s making this restart smoother than I expected.
 1. Testing Zola and the Rust Ecosystem
 
 Rust has matured since I first peeked at it a decade ago, and I stumbled across [Zola](https://www.getzola.org/) — a fast, simple static site generator (SSG) written in Rust. It’s the perfect fit for my love of lightweight, self-hosted solutions. Restarting my blog became an excuse to dive into Zola, explore the Rust ecosystem, and build something tangible. I’m already hooked—the developer experience is slick, and the performance lives up to the hype. This blog is now my Rust-powered playground.
@@ -29,3 +32,13 @@ Back to the 2010s, But Better
 This reboot feels like stepping back into the early 2010s, setting up my first GitHub Pages site. But now, I’ve got sharper tools—Zola, Rust, LLMs—and a decade of experience. It’s not just a blog restart; it’s a quiet rebellion against the app-driven web and a chance to blend my passions for Rust, self-hosting, and organized chaos, with a little AI assist to keep the words flowing.
 
 Here I am in 2025, typing this, ready for the ride ahead. Expect posts about Rust, Zola, self-hosting, LLMs, and whatever else I’m digging into. If you’re reading this, welcome along!
+
+## What's my plan?
+
+I will first migrate my old personal website to the new Zola SSG tools. The
+new CI/CD will be built on top of GitHub action instead of Travis CI.
+Potentially, some old blog posts will be migrated to this new blog with the
+original post date and the repost date. I will focus on my personal interest
+around programming, investment, and artificial intelligence. I will start with
+an existing theme and build on top of it to make it suit my style/need. 
+
