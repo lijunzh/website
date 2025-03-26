@@ -1,6 +1,10 @@
 +++
 title = "Restarting My Blog: A Decade Later" 
-date = 2024-03-22
+date = 2024-03-24
+
+[taxonomies]
+categories = ["Announcement"]
+tags = ["web", "ai"]
 +++
 
 ## What happened before?
@@ -35,10 +39,6 @@ Here I am in 2025, typing this, ready for the ride ahead. Expect posts about Rus
 
 ## What's my plan?
 
-I will first migrate my old personal website to the new Zola SSG tools. The
-new CI/CD will be built on top of GitHub action instead of Travis CI.
-Potentially, some old blog posts will be migrated to this new blog with the
-original post date and the repost date. I will focus on my personal interest
-around programming, investment, and artificial intelligence. I will start with
+I will first migrate my old personal website to the new Zola SSG tools. The new CI/CD will be built on top of GitHub action instead of Travis CI. Potentially, some old blog posts will be migrated to this new blog with the original post date and the repost date. I will focus on my personal interest around programming, investment, and artificial intelligence. I will start with
 an existing theme and build on top of it to make it suit my style/need. 
 

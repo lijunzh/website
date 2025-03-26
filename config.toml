@@ -30,10 +30,10 @@ index_format = "elasticlunr_json"
 author = "Lijun Zhu"
 
 after_dark_menu = [
-    {url = "$BASE_URL", name = "Home"},
-    # {url = "$BASE_URL/categories", name = "Categories"},
-    # {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "https://github.com/lijunzh", name = "GitHub"},
+	{url = "$BASE_URL", name = "Home"},
+	{url = "$BASE_URL/posts", name = "Posts"},
+	# {url = "$BASE_URL/categories", name = "Categories"},
+	# {url = "$BASE_URL/tags", name = "Tags"},
 ]
 
 codeblock = true
