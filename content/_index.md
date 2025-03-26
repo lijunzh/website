@@ -1,4 +1,5 @@
 +++
+title = "Home"
 insert_anchor_links = "heading"
 +++
 
@@ -35,7 +36,10 @@ Table under construction
 
 ## My most recent publication
 
-Section under construction
+> Platforms can be more than functional - they can inspire our thinking and
+> enable us do things that we didn't know we can before.
+
+Table under construction
 
 ## A bit about me
 
