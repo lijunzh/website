@@ -1,0 +1,25 @@
+{% if height is defined and width is defined %}
+    {% set path = path|default(value='') %}
+    {% set op = op|default(value='fit') %}
+    {% set alt = alt|default(value='') %}
+    {% set image = resize_image(path=path, width=width, height=height, op=op) %}
+    <img src="{{ image.url }}" alt="{{ alt }}">
+{% elif height is defined %}
+    {% set path = path|default(value='') %}
+    {% set op = op|default(value='fit') %}
+    {% set alt = alt|default(value='') %}
+    {% set image = resize_image(path=path, height=height, op=op) %}
+    <img src="{{ image.url }}" alt="{{ alt }}">
+{% elif width is defined %}
+    {% set path = path|default(value='') %}
+    {% set op = op|default(value='fit') %}
+    {% set alt = alt|default(value='') %}
+    {% set image = resize_image(path=path, width=width, op=op) %}
+    <img src="{{ image.url }}" alt="{{ alt }}">
+{% else %}
+    {% set path = path|default(value='') %}
+    {% set op = op|default(value='fit') %}
+    {% set alt = alt|default(value='') %}
+    {% set image = resize_image(path=path, op=op) %}
+    <img src="{{ image.url }}" alt="{{ alt }}">
+{% endif %}

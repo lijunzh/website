@@ -7,7 +7,7 @@ insert_anchor_links = "heading"
 
 # I'm Lijun Zhu
 
-<img src="image/lijun.jpg" alt="Lijun Zhu Profile" width="400"/>
+{{ resize_image(path="images/lijun.jpg", width=400, op="fit_width") }}
 
 > I love leading tech teams to achieve their full potential. 
 
