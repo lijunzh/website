@@ -11,3 +11,19 @@
 {% block css %}
 <link rel="stylesheet" href="{{ get_url(path='site.css', trailing_slash=false, cachebust=true) | safe }}">
 {% endblock css %}
+
+
+{% block content %}
+
+	{% block header %}
+		{{ super() }}
+	{% endblock header %}
+
+	<main>
+		{% if section.content %}
+			{{ section.content | safe }}
+		{% endif %}
+	</main>
+
+{% endblock content %}:
+
