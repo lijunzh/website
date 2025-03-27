@@ -9,7 +9,7 @@ insert_anchor_links = "heading"
 
 # About
 
-<img src="lijun.jpg" alt="Lijun Zhu Profile" width="300"/>
+<img src="lijun.jpg" alt="Lijun Zhu Profile" width="400"/>
 
 Starting in 2022, I served as senior manage of data science and machine learning
 on the Sam's AI Lab at [Walmart Global Tech](https://tech.walmart.com/content/walmart-global-tech/en_us.html)

@@ -7,7 +7,7 @@ insert_anchor_links = "heading"
 
 # I'm Lijun Zhu
 
-<img src="lijun.jpg" alt="Lijun Zhu Profile" width="300"/>
+<img src="lijun.jpg" alt="Lijun Zhu Profile" width="400"/>
 
 > I love leading tech teams to achieve their full potential. 
 
