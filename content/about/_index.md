@@ -9,7 +9,7 @@ insert_anchor_links = "heading"
 
 # About
 
-{{ resize_image(path="images/lijun.jpg", width=400, op="fit_width") }}
+{{ resize_image(path="images/lijun.jpg", width=400, op="fit_width", alt="Lijun Profile Picture") }}
 
 Starting in 2022, I served as senior manage of data science and machine learning
 on the Sam's AI Lab at [Walmart Global Tech](https://tech.walmart.com/content/walmart-global-tech/en_us.html)
