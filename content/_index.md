@@ -14,7 +14,7 @@ insert_anchor_links = "heading"
 I helped building effective teams at organizations like [Walmart Global Tech](https://tech.walmart.com/content/walmart-global-tech/en_us.html), [Texas Instruments](https://www.ti.com/), and [Georgia Institute of Technology](https://www.gatech.edu/). 
 I am also an open-source contributor to packages like [Numpy](https://numpy.org/), [Obspy](https://github.com/obspy/obspy), and [PyTorch](https://pytorch.org/).
 
-- Resume
+- [Resume](https://github.com/lijunzh/resume/releases/latest/download/resume.pdf)
 - [LinkedIn](https://www.linkedin.com/in/lijunzh/)
 - [GitHub](https://github.com/lijunzh/)
 - [Email](mailto:gatechzhu@gmail.com)
